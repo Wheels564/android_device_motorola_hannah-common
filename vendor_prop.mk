@@ -5,3 +5,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.sensors=hannah
+
+# Soc
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=QTI \
+    ro.soc.model=MSM8937
