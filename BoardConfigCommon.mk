@@ -24,8 +24,8 @@ VENDOR_SECURITY_PATCH := 2022-01-01
 
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(HANNAH_COMMON_PATH)/sepolicy/vendor
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(HANNAH_COMMON_PATH)/sepolicy/public
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(HANNAH_COMMON_PATH)/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(HANNAH_COMMON_PATH)/sepolicy/public
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(HANNAH_COMMON_PATH)/sepolicy/private
 
 # Inherit from the proprietary version
 include vendor/motorola/hannah-common/BoardConfigVendor.mk
