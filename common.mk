@@ -15,9 +15,7 @@ TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
