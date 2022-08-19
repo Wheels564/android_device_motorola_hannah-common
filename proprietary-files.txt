@@ -97,6 +97,7 @@ vendor/lib/libmmjpeg_interface.so|9da4aee269b3e5fecdefac09953f123ae046a73f
 vendor/lib/libmmqjpeg_codec.so|93fb7395e1b3490d46163cc1486022876fc4ace2
 vendor/lib/libmmqjpegdma.so|d4b449b6596b50e765819a677aeb6f876475cde9
 vendor/lib/libmotocalibration.so|d23f3bccc0bd0e670362dcb5a660a0b5ed5475f6
+vendor/lib/libmmcamera_ppeiscore.so|b74f4323af1bfa52eb73fa0d4c3c5d59f70e966a
 
 # Camera actuators - from deen_sprout - PPKS29.68-16-36-14
 vendor/lib/libactuator_dw9767.so:vendor/lib/libactuator_dw9767_truly.so|130e895c61c23b168e310212945e4ad776d80440
