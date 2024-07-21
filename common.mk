@@ -11,7 +11,7 @@ $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
 $(call inherit-product, vendor/motorola/hannah-common/hannah-common-vendor.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Overlays

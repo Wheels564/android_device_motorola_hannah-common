@@ -16,7 +16,7 @@ set -e
 
 export BOARD_COMMON=msm8937-common
 export DEVICE_COMMON=hannah-common
-export DEVICE_SPECIFIED_COMMON_DEVICE="ahannah hannah rhannah"
+export DEVICE_SPECIFIED_COMMON_DEVICE="ahannah hannah james rhannah"
 
 "./../../${VENDOR}/${BOARD_COMMON}/extract-files.sh" "$@"
 

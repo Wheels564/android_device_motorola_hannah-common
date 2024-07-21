@@ -10,7 +10,7 @@
 HANNAH_COMMON_PATH := device/motorola/hannah-common
 
 # Display
-TARGET_SCREEN_DENSITY := 320
+TARGET_SCREEN_DENSITY := 282
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(HANNAH_COMMON_PATH)/manifest.xml
