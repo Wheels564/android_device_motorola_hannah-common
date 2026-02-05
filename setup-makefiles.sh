@@ -9,6 +9,6 @@
 set -e
 
 export BOARD_COMMON=msm8937-common
-export DEVICE_COMMON_GUARDS="ahannah hannah rhannah"
+export DEVICE_COMMON_GUARDS="ahannah hannah james rhannah"
 
 "./../../${VENDOR}/${BOARD_COMMON}/setup-makefiles.sh" "$@"
